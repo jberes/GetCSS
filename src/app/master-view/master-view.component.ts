@@ -21,4 +21,10 @@ export class MasterViewComponent implements OnInit {
     this.jSONNorthwindCustomersService.getCustomers().subscribe(data => this.jSONNorthwindCustomersCustomers = data);
     this.jSONNorthwindOrdersService.getOrders().subscribe(data => this.jSONNorthwindOrdersOrders = data);
   }
+
+  public formatOptions = {
+    format: 'shortDate',
+    timezone: 'GMT'
+};
+
 }

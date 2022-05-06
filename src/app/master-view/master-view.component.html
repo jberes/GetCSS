@@ -17,8 +17,14 @@
     <igx-column header="OrderID" field="OrderID" dataType="number" [sortable]="true" title="OrderID"></igx-column>
     <igx-column header="CustomerID" field="CustomerID" dataType="string" [sortable]="true" title="CustomerID"></igx-column>
     <igx-column header="EmployeeID" field="EmployeeID" dataType="number" [sortable]="true" title="EmployeeID"></igx-column>
+    <igx-column header="OrderDate" field="OrderDate" dataType="date" [sortable]="true" title="OrderDate" ></igx-column>
+    <igx-column header="OrderDate" field="OrderDate" dataType="date" [sortable]="true" title="OrderDate" [pipeArgs]="formatOptions" ></igx-column>
+
+    
+
+
     <igx-column header="ShipVia" field="ShipVia" dataType="number" [sortable]="true" title="ShipVia"></igx-column>
-    <igx-column header="Freight" field="Freight" dataType="number" [sortable]="true" title="Freight"></igx-column>
+    <igx-column header="Freight" field="Freight" dataType="currency" [sortable]="true" title="Freight"></igx-column>
     <igx-column header="ShipName" field="ShipName" dataType="string" [sortable]="true" title="ShipName"></igx-column>
     <igx-column header="ShipAddress" field="ShipAddress" dataType="string" [sortable]="true" title="ShipAddress"></igx-column>
     <igx-column header="ShipCity" field="ShipCity" dataType="string" [sortable]="true" title="ShipCity"></igx-column>
