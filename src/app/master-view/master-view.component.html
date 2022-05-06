@@ -1,0 +1,28 @@
+<div class="group column-layout">
+  <igx-grid [data]="jSONNorthwindCustomersCustomers" primaryKey="CustomerID" displayDensity="cosy" class="grid">
+    <igx-column header="CustomerID" field="CustomerID" dataType="string" [sortable]="true" title="CustomerID"></igx-column>
+    <igx-column header="CompanyName" field="CompanyName" dataType="string" [sortable]="true" title="CompanyName"></igx-column>
+    <igx-column header="ContactName" field="ContactName" dataType="string" [sortable]="true" title="ContactName"></igx-column>
+    <igx-column header="ContactTitle" field="ContactTitle" dataType="string" [sortable]="true" title="ContactTitle"></igx-column>
+    <igx-column header="Address" field="Address" dataType="string" [sortable]="true" title="Address"></igx-column>
+    <igx-column header="City" field="City" dataType="string" [sortable]="true" title="City"></igx-column>
+    <igx-column header="Region" field="Region" dataType="string" [sortable]="true" title="Region"></igx-column>
+    <igx-column header="Country" field="Country" dataType="string" [sortable]="true" title="Country"></igx-column>
+    <igx-column header="Phone" field="Phone" dataType="string" [sortable]="true" title="Phone"></igx-column>
+    <igx-column header="Fax" field="Fax" dataType="string" [sortable]="true" title="Fax"></igx-column>
+  </igx-grid>
+</div>
+<div class="group column-layout">
+  <igx-grid [data]="jSONNorthwindOrdersOrders" primaryKey="OrderID" displayDensity="cosy" class="grid">
+    <igx-column header="OrderID" field="OrderID" dataType="number" [sortable]="true" title="OrderID"></igx-column>
+    <igx-column header="CustomerID" field="CustomerID" dataType="string" [sortable]="true" title="CustomerID"></igx-column>
+    <igx-column header="EmployeeID" field="EmployeeID" dataType="number" [sortable]="true" title="EmployeeID"></igx-column>
+    <igx-column header="ShipVia" field="ShipVia" dataType="number" [sortable]="true" title="ShipVia"></igx-column>
+    <igx-column header="Freight" field="Freight" dataType="number" [sortable]="true" title="Freight"></igx-column>
+    <igx-column header="ShipName" field="ShipName" dataType="string" [sortable]="true" title="ShipName"></igx-column>
+    <igx-column header="ShipAddress" field="ShipAddress" dataType="string" [sortable]="true" title="ShipAddress"></igx-column>
+    <igx-column header="ShipCity" field="ShipCity" dataType="string" [sortable]="true" title="ShipCity"></igx-column>
+    <igx-column header="ShipRegion" field="ShipRegion" dataType="string" [sortable]="true" title="ShipRegion"></igx-column>
+    <igx-column header="ShipCountry" field="ShipCountry" dataType="string" [sortable]="true" title="ShipCountry"></igx-column>
+  </igx-grid>
+</div>
